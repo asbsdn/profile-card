@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+  }
+
+.card-container {
+    width: 330px;
+    height: 434px;
+    color: #1c2665;
+    background-color: rgb(240, 235, 246);
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.portada img {
+    width: 330px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.profile-img {
+    height: 60px;
+}
+
+.profile-img img {
+   width: 100px;
+   height: 100px;
+   position: relative;
+   top: -40px;
+}
+
+.profile-name h1, p {
+    margin: 3px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin: 20px 50px;
+}
+
+.followers {
+    display: flex;
+    flex-direction: row;
+}
+
+.numbers {
+    border: 1px solid rgb(200, 195, 195);
+    width: 100%;
+    padding: 5px;
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 0 0 20px 20px;
+    background-color: #1c2665;
+    color: rgb(202, 202, 202);
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}
